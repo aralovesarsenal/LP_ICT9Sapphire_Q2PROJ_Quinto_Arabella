@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipes - Kitty Cafe</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/8/88/Hello_Kitty_Logo.svg" type="image/svg+xml">
+    <style>
+        body {
+            background-color: #ffe4e6;
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+        }
+
+        .header {
+            text-align: center;
+            background-color: #ffc0cb;
+            padding: 20px;
+        }
+
+        .header h1 {
+            color: #ff69b4;
+            font-size: 3rem;
+            text-shadow: 2px 2px #ff99cc;
+        }
+
+        .recipe-card {
+            border: 3px solid #ff99cc;
+            border-radius: 15px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        .recipe-card h5 {
+            font-family: 'Pacifico', cursive;
+            color: #ff69b4;
+        }
+
+        .navbar {
+            background-color: #ffc0cb;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .navbar-brand, .nav-link {
+            color: #ff69b4 !important;
+            font-weight: bold;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #ffc0cb;
+            color: #ff69b4;
+            font-size: 1.2rem;
+        }
+    </style>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">Kitty Cafe ⋆. 𐙚 ˚</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="page1.html">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="page2.html">Recipes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="page3.html">Submit Recipe</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header Section -->
+    <header class="header">
+        <h1>Cutesy Recipes ⋆𐙚₊˚⊹♡</h1>
+    </header>
+
+    <!-- Recipes Section -->
+    <section class="container mt-5">
+    <div class="row g-4">
+        <!-- Recipe Cards -->
+        <div class="col-md-4">
+            <div class="card recipe-card">
+                <img src="https://i.pinimg.com/736x/75/e5/07/75e5075c347a26de6e63888c6ac55530.jpg" class="card-img-top" alt="Sanrio Ramen">
+                <div class="card-body">
+                    <h5 class="card-title">Ramen!</h5>
+                    <button class="btn btn-pink w-100" onclick="window.location.href='https://www.youtube.com/watch?v=xQkE-xRN57g'">View Recipe</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card recipe-card">
+                <img src="https://i.pinimg.com/474x/54/bf/57/54bf576d6e8bbb045ec6477404ea7892.jpg" class="card-img-top" alt="Sanrio Curry">
+                <div class="card-body">
+                    <h5 class="card-title">Curry!</h5>
+                    <button class="btn btn-pink w-100" onclick="window.location.href='https://www.youtube.com/watch?v=aFqH2KwfmEg'">View Recipe</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card recipe-card">
+                <img src="https://i.pinimg.com/474x/1a/26/04/1a2604874c66e4f954093147bea99eb2.jpg">
+                <div class="card-body">
+                    <h5 class="card-title">Snack Platter!</h5>
+                    <button class="btn btn-pink w-100" onclick="window.location.href='https://www.sanrio.com/blogs/sanrio/hello-kitty-sushi'">View Recipe</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card recipe-card">
+                <img src="https://i.pinimg.com/736x/d5/6a/6f/d56a6f07a49f05cc8d815493c96bd79e.jpg" class="card-img-top" alt="Sanrio Crepes">
+                <div class="card-body">
+                    <h5 class="card-title">Crepes!</h5>
+                    <button class="btn btn-pink w-100" onclick="window.location.href='https://www.sanrio.com/blogs/sanrio/hello-kitty-ombre-crepe-cake'">View Recipe</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card recipe-card">
+                <img src="https://i.pinimg.com/236x/1e/94/04/1e9404a471bd66b75cbd615ee8737212.jpg" class="card-img-top" alt="Sanrio Latte">
+                <div class="card-body">
+                    <h5 class="card-title">Lattes!</h5>
+                    <button class="btn btn-pink w-100" onclick="window.location.href='https://www.youtube.com/watch?v=o2EoLnHpNUA'">View Recipe</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card recipe-card">
+                <img src="https://i.pinimg.com/736x/7a/e7/04/7ae704a928f581296c01ea58017b3121.jpg" class="card-img-top" alt="Sanrio Donuts">
+                <div class="card-body">
+                    <h5 class="card-title">Donuts!</h5>
+                    <button class="btn btn-pink w-100" onclick="window.location.href='https://www.sanrio.com/blogs/sanrio/kuromi-chocolate-donuts'">View Recipe</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2024 Kitty Cafe. All rights reserved. Meow!</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
